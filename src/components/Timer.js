@@ -79,7 +79,7 @@ export default class Timer extends Component {
       }, 1000)
 
     } else {
-      alert('Por favor selecione um tempo antes de começar.')
+      alert('Por favor selecione um tempo antes de começar')
     }
   }
 
