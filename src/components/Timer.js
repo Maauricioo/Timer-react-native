@@ -118,7 +118,11 @@ export default class Timer extends Component {
             <View style={styles.viewTimer}>
               <TouchableOpacity onPress={this.showTime}>
                 {this.state.selecioneTempo &&
+<<<<<<< HEAD
                   <Text style={styles.timerSelec}>Selecione o tempo teste 1</Text>
+=======
+                  <Text style={styles.timerSelec}>Selecione o tempo teste 2</Text>
+>>>>>>> test2
                 }
                 {!this.state.selecioneTempo &&
                   <Text style={styles.timer}>
